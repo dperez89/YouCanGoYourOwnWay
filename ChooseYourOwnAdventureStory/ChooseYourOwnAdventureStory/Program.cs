@@ -10,6 +10,9 @@ namespace ChooseYourOwnAdventureStory
     {
         static void Main(string[] args)
         {
+            MainStory game = new MainStory();
+            game.MainMenu();
+            Console.ReadKey();
         }
     }
 }
